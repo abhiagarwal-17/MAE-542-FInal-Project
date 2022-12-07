@@ -1,0 +1,72 @@
+
+File opened at Tue Dec  6 19:28:32 2022 by MOSEK version 9.3.20.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : CONIC (conic optimization problem)
+  Constraints            : 918             
+  Cones                  : 0               
+  Scalar variables       : 462             
+  Matrix variables       : 2               
+  Integer variables      : 0               
+
+Optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator started.
+Freed constraints in eliminator : 2
+Eliminator terminated.
+Eliminator started.
+Freed constraints in eliminator : 0
+Eliminator terminated.
+Eliminator - tries                  : 2                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 0.00            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 0.00    
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : CONIC (conic optimization problem)
+  Constraints            : 918             
+  Cones                  : 0               
+  Scalar variables       : 462             
+  Matrix variables       : 2               
+  Integer variables      : 0               
+
+Optimizer  - threads                : 6               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 864
+Optimizer  - Cones                  : 1
+Optimizer  - Scalar variables       : 274               conic                  : 274             
+Optimizer  - Semi-definite variables: 2                 scalarized             : 1404            
+Factor     - setup time             : 0.01              dense det. time        : 0.00            
+Factor     - ML order time          : 0.01              GP order time          : 0.00            
+Factor     - nonzeros before factor : 3.13e+05          after factor           : 3.14e+05        
+Factor     - dense dim.             : 2                 flops                  : 1.67e+08        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   1.0e+00  1.0e+00  1.0e+00  0.00e+00   0.000000000e+00   0.000000000e+00   1.0e+00  0.02  
+1   4.5e-01  4.5e-01  3.0e-01  1.00e+00   0.000000000e+00   0.000000000e+00   4.5e-01  0.03  
+2   4.9e-02  4.9e-02  1.1e-02  1.00e+00   0.000000000e+00   0.000000000e+00   4.9e-02  0.05  
+3   6.4e-03  6.4e-03  5.3e-04  1.00e+00   0.000000000e+00   0.000000000e+00   6.4e-03  0.07  
+4   3.4e-03  3.4e-03  2.1e-04  1.00e+00   0.000000000e+00   0.000000000e+00   3.4e-03  0.09  
+5   5.4e-04  5.4e-04  1.3e-05  1.00e+00   0.000000000e+00   0.000000000e+00   5.4e-04  0.10  
+6   8.0e-05  8.0e-05  7.5e-07  1.00e+00   0.000000000e+00   0.000000000e+00   8.0e-05  0.12  
+7   5.0e-05  5.0e-05  3.7e-07  1.00e+00   0.000000000e+00   0.000000000e+00   5.0e-05  0.13  
+8   8.1e-06  8.1e-06  2.4e-08  1.00e+00   0.000000000e+00   0.000000000e+00   8.1e-06  0.15  
+9   1.4e-06  1.4e-06  1.7e-09  1.00e+00   0.000000000e+00   0.000000000e+00   1.4e-06  0.17  
+10  4.7e-07  4.7e-07  3.4e-10  1.00e+00   0.000000000e+00   0.000000000e+00   4.7e-07  0.18  
+11  6.3e-08  5.6e-08  1.5e-11  1.00e+00   0.000000000e+00   0.000000000e+00   5.6e-08  0.20  
+12  2.0e-08  7.2e-09  6.8e-13  1.00e+00   0.000000000e+00   0.000000000e+00   7.5e-09  0.22  
+13  4.4e-09  1.2e-09  4.5e-14  1.00e+00   0.000000000e+00   0.000000000e+00   1.2e-09  0.24  
+Optimizer terminated. Time: 0.24    
+
+
+Interior-point solution summary
+  Problem status  : PRIMAL_AND_DUAL_FEASIBLE
+  Solution status : OPTIMAL
+  Primal.  obj: 0.0000000000e+00    nrm: 6e+00    Viol.  con: 6e-09    var: 0e+00    barvar: 0e+00  
+  Dual.    obj: 0.0000000000e+00    nrm: 4e+01    Viol.  con: 0e+00    var: 2e-11    barvar: 2e-09  
+
+File closed: Tue Dec  6 19:28:32 2022
+
